@@ -18,7 +18,7 @@ app.use((req, res, next) => {
 const port = 3000;
 const MODEL_NAME = "gemini-1.0-pro-001";
 const API_KEY = "AIzaSyAIHv7VhUR6R7KMpnUX_frUXoGarOIZuJY"; // 제미나이 API 키로 대체
-const prompt = '﻿세라젬 마스터V7 프로모션'; // 당신의 챗봇에 맞게 프롬프트 변경해주세요
+const prompt = '세라젬 마스터V7'; // 당신의 챗봇에 맞게 프롬프트 변경해주세요
 
 app.post('/generate', async (req, res) => {  
     try {
